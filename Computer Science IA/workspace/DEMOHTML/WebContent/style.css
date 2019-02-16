@@ -1,0 +1,9 @@
+.header{background-color:rgb(0,0,176);border:double red 5px ;border-radius:20px;height:100px;
+width:100%}
+.sidebar{float:left;height:900px;width:300px;border-radius:
+20px;background-color:rgb(255, 225, 242);}
+h1{text-transform:captilize;font-size:30px;text-align:center;color:white;}
+a{font-size:30px;background-color:orange;border-radius:20px;
+text-decoration:none;box-shadow:10px 10px grey;}
+p{text-align:center;font-size:30px;}
+

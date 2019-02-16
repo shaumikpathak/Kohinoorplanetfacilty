@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bookings</title>
+<style>
+.header{background-color:rgb(255, 95, 236);border-radius:20px;height:100px;
+width:100%;background: linear-gradient(to bottom right, violet, blue);}
+.input{
+position:absolute;left:35%;top:50%;}
+input{width:150px;height:80px;border-radius:10px;font-size:20px;}
+button{background-color:blue;color:white;border-radius:15px;box-shadow:5px 5px grey;
+width:100px;height:50px;cursor:pointer;}
+button:hover{background-color:rgb(0, 121, 255);box-shadow:5px 5px lightgrey;}
+</style>
+
+</head>
+<body bgcolor=rgb(255,203,123)>
+
+<div class="header"><h1><b>Book A Slot</b></h1></div>
+<form action="passing.html" method=get>
+<label for="booking">Booking date: </label>
+<input id="meeting" type="date" value="00/00/000" name="date">
+<input type=submit value="book date" name=submit id=submit>
+
+<label for="booking">Booking time: </label>
+<input id="meeting" type="time" value="00:00 pm" name="time">
+<input type=submit value="book time" name=submit id=submit>
+</form>
+</body>
+</html>

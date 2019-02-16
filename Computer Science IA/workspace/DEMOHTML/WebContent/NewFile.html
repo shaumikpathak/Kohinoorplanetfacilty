@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>css pratice</title>
+<style>
+#c:hover{width: 300px;
+         height: 300px;}
+h1{color:white;font-size:300%;font-family:Times;}
+p{text-align:center;font}
+a{text-align:center;}
+.div1{background-color:rgba(0,0,0,0.8);border-radius:25px;border:solid black 2px;
+height:5%;width:100%;}
+img{height:300px;width:300px;border:solid black 3px;border-radius:25px;}
+body{background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+}
+.color{float:right;line-height:30px;height:100px;width:100px;
+background-color:cyan;border-radius:25px;text-align:center;transition: width 2s, height 4s;}
+</style>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == null || x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}  
+function getname(){
+	return name;
+}
+</script>
+</head>
+<body>
+<div class="div1"><h1>login</h1></div>
+<div class="color" id="c">
+<br><br><br><a href="http://localhost:8081/DEMOHTML/demo2.html">next webpage</a><br><br><br><br><br>
+</div>
+<a href=https://www.google.co.in/?gws_rd=ssl>open google</a>
+<form name="myForm" action="NewFile4.html" onsubmit="return validateForm()" method="post">
+ Name: <input type="text" name="name"><br>
+password:<input type="password" name="name"><br>
+<input type="submit" value="Submit"><br>
+</form>
+<br><img src="Water.jpg">
+<br><iframe src="http://localhost:8081/DEMOHTML/demo2.html" width=300px height=300px></iframe>
+</body>
+</html>
