@@ -3,5 +3,8 @@ A web application used for effectively scheduling facilities like tennis, table-
 Instructions to run Web Application:
 1. Go to DEMOHTML
 2. Open homepage.html on a localhost
-3. 
+
+Instructions to host website:
+1. Run mongodb
+
  
