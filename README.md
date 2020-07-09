@@ -5,6 +5,6 @@ Instructions to run Web Application:
 2. Open homepage.html on a localhost
 
 Instructions to host website:
-1. Run mongodb
+1. 
 
  
